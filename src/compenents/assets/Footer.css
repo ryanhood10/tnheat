@@ -20,7 +20,13 @@
     list-style: none;
     width: 24px;
     height: 24px;
+    
   }
+  
+  .footer-icons a :hover {
+    color: #888;
+  }
+  
   
   .footer-icons li {
     margin: 0 70px; /* Adjust spacing between icons */

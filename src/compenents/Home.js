@@ -29,15 +29,32 @@ const Home = () => {
         <Carousel>
           <div>
             <img src="/Heat3.jpg" alt="Slideshow2" />
-            <p className="legend">Slideshow Image 1</p>
+            <p className="legend">Championship Team</p>
+          </div>
+          <div>
+            <img src="/Heat1.webp" alt="Slideshow2" />
+            <p className="legend">The GOAT big 3</p>
+          </div>
+          <div>
+            <img src="/Heat2.jpg" alt="Slideshow3" />
+            <p className="legend">Hype!</p>
           </div>
           <div>
             <img src="/Heat3.jpg" alt="Slideshow2" />
-            <p className="legend">Slideshow Image 2</p>
+            <p className="legend">Championship Team</p>
+          </div>
+          <div>
+            <img src="/Heat4.jpg" alt="Slideshow2" />
+            <p className="legend">Alternate Jerseys</p>
+          </div>
+          <div>
+            <img src="/Heat5.jpg" alt="Slideshow2" />
+            <p className="legend">In Jimmy we Trust</p>
           </div>
           {/* Add more images here */}
         </Carousel>
       </div>
+      <div className="footer-margin"></div>
     </div>
   );
 };

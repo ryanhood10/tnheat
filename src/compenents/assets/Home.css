@@ -39,6 +39,10 @@
   font-size: 18px;
   text-align: center;
 }
+.footer-margin {
+  margin-bottom: 20px; /* Adjust the margin value as needed */
+}
+
 
 @media (max-width: 600px) {
   .home-container {
@@ -52,4 +56,8 @@
   .slideshow {
     height: 200px;
   }
+  .footer-margin {
+    margin-bottom: 20px; /* Adjust the margin value as needed */
+  }
+  
 }
