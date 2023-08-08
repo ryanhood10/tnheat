@@ -6,8 +6,13 @@ import './assets/Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 className="home-title">Welcome to Tennessee Heat!</h1>
-      <div className="home-content">
+
+      <div className="hero-container">
+        <h1 className="hero-title">Welcome to Tennessee Heat!</h1>
+        {/* <p className="hero-subtitle">Tennessee's premiere youth sports basketball organization</p> */}
+      </div>
+
+            <div className="home-content">
         <div className="box-wrapper">
           <div className="box">
             <p>
@@ -28,29 +33,29 @@ const Home = () => {
       <div className="slideshow-container">
         <Carousel>
           <div>
-            <img src="/Heat3.jpg" alt="Slideshow2" />
-            <p className="legend">Championship Team</p>
+            <img src="/tnheatslide1.jpg" alt="team1" />
+            {/* <p className="legend">Championship Team</p> */}
           </div>
           <div>
-            <img src="/Heat1.webp" alt="Slideshow2" />
-            <p className="legend">The GOAT big 3</p>
+            <img src="/tnheatslide2.jpg" alt="Slideshow2" />
+            {/* <p className="legend">The GOAT big 3</p> */}
           </div>
           <div>
-            <img src="/Heat2.jpg" alt="Slideshow3" />
-            <p className="legend">Hype!</p>
+            <img src="/tnheatslide3.jpg" alt="Slideshow3" />
+            {/* <p className="legend">Hype!</p> */}
           </div>
           <div>
-            <img src="/Heat3.jpg" alt="Slideshow2" />
-            <p className="legend">Championship Team</p>
+            <img src="/tnheatmotto.jpg" alt="Slideshow4" />
+            {/* <p className="legend">Championship Team</p> */}
           </div>
           <div>
-            <img src="/Heat4.jpg" alt="Slideshow2" />
-            <p className="legend">Alternate Jerseys</p>
+            <img src="/tnheatKobeQuote.jpg" alt="Slideshow5" />
+            {/* <p className="legend">Alternate Jerseys</p> */}
           </div>
-          <div>
+          {/* <div>
             <img src="/Heat5.jpg" alt="Slideshow2" />
             <p className="legend">In Jimmy we Trust</p>
-          </div>
+          </div> */}
           {/* Add more images here */}
         </Carousel>
       </div>

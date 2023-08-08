@@ -1,3 +1,23 @@
+/* Home.css */
+
+.hero-container {
+  background-image: url('../assets/pictures/CourtHeader.png'); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Text color for the title */
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add text shadow for better visibility */
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
