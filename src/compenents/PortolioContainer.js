@@ -3,8 +3,9 @@ import Home from './Home';
 import Contact from './Contact';
 import Schedule from './Schedule';
 import News from './News';
+import Info from './Info'; // Import the Info component
 
-export default function PortfolioContainer({ page }) {
+export default function PortfolioContainer({ page, showInfo }) {
   const renderPage = () => {
     if (page === 'Home') {
       return <Home />;
@@ -20,5 +21,11 @@ export default function PortfolioContainer({ page }) {
     }
   };
 
-  return <div className="landing">{renderPage()}</div>;
+  return (
+    <div className="landing">
+      {renderPage()}
+      {/* Conditionally render the Info component */}
+      {showInfo && <Info />}
+    </div>
+  );
 }

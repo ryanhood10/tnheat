@@ -59,7 +59,13 @@ const Home = () => {
           {/* Add more images here */}
         </Carousel>
       </div>
-      <div className="footer-margin"></div>
+      <div className="info-box">
+        <img src="/tnheatlogo.jpg" alt="Tennessee Heat Logo" className="info-logo" />
+        <h4 className="info-title">Our Mission Statement</h4>
+        <p>
+          "Our mission is to provide a positive and competitive environment for young athletes to develop their basketball skills and foster a love for the game."
+        </p>
+      </div>
     </div>
   );
 };
